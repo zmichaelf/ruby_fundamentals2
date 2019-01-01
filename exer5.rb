@@ -22,3 +22,5 @@ def greet_bw(name1, name2, name3, name4)
     end
     
 greet_bw("Bob", "Shirly", "Sue", "Andy")
+
+# Yay! I figured it out. I think this would only work if you knew up front how many names you need to perform the method on.
