@@ -7,3 +7,5 @@ end
 puts "Enter Temperature in Farenheit and I'll convert it to Celsius"
 user_input = gets.chomp.to_i
 FtoC(user_input)
+
+# I figured out how to round the return value by using '.round' command
