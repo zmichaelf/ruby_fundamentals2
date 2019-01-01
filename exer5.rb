@@ -14,10 +14,10 @@ greet_bw("Shirly")
 greet_bw("Sue")
 greet_bw("Andy")
 
-# It works, but is there a way to achieve this using multiple arguments & then calling greet_bw one time? Let's try:
+# It works, using one argument above & calling for each name separately; but is there a way to achieve this using multiple arguments & then calling greet_bw one time? Let's try:
 
 def greet_bw(name1, name2, name3, name4)
-    puts "Hello #{name1.reverse}! Welcome home. \nHello #{name2.reverse}! Welcome home. \nHello #{name3.reverse}! Welcome home. \nHello #{name4.reverse}! Welcome home."    
+    puts "Hello #{name1.reverse}#{name1.reverse}! Welcome home. \nHello #{name2.reverse}#{name2.reverse}! Welcome home. \nHello #{name3.reverse}#{name3.reverse}! Welcome home. \nHello #{name4.reverse}#{name4.reverse}! Welcome home."    
           
     end
     
