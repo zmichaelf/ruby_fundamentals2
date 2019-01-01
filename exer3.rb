@@ -1,11 +1,15 @@
+# Define a method called is_even? that accepts a number as an argument and returns a boolean (true/false) indicating whether that number is even or not (HINT: use the % operator).
+# Try calling it with different numbers.
+
+
 def is_even?(num)
 return num % 2 == 0
 
 end
 
-p is_even?(67)
+p is_even?(75)
 
-# Googling to see what I could find on even/odd: source: 
+# Googling I finally found this source: 
 # https://stackoverflow.com/questions/3517238/what-does-the-operator-do-in-ruby-in-n-2
 
 # % is the modulo operator. The result of counter % 2 is the remainder of counter / 2.
